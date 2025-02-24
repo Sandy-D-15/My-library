@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="sanchit.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="sanchit.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
+    <body>
+    
+        <!-- Sidebar with Bars Icon -->
+        <div class="sidebar">
+            <i class="fa-solid fa-bars menu-icon" onclick="toggleSidebar()"></i>
+            <ul class="menu">
+                <li><a href="funny.html">Funny</a></li>
+                <li><a href="horror.html">Horror</a></li>
+                <li><a href="science.html">Science</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="biography.html">Biography</a></li>
+            </ul>
+            
+        </div>
+    
+        <!-- Home Content -->
+        <div class="home-content">
+            <p>horror books</p>
+            <a href="home.html" class="home-button">Home</a>
+    
+        </div>
+        
+        
+    
+      <!-- Book Slider at the Top -->
+      <div class="book-slider top-slider">
+          <div class="book-track">
+            <a href="horror.book1.pdf" ><img src="horror.book1.jpg" alt=""></a>
+             <img src="horror.book2.jpg" alt="Book 2">
+             <img src="horror.book3.jpg" alt="Book 3">
+             <img src="horror.book4.jpg" alt="Book 4">
+             <img src="horror.book5.jpg" alt="Book 5">
+             
+             <!-- Duplicate Images for Seamless Effect -->
+             <a href="book1.pdf" ><img src="horror.book6.jpg" alt=""></a>
+             <img src="horror.book7.jpg" alt="Book 5">
+             <img src="horror.book8.jpg" alt="Book 6">
+             <img src="horror.book9.jpg" alt="Book 7">
+             <img src="horror.book10.jpg" alt="Book 5">
+             </div>
+        </div>
+    
+        <!-- Book Slider at the Bottom -->
+       <div class="book-slider bottom-slider">
+          <div class="book-track">
+             <img src="horror.book1.jpg" alt="Book 6">
+             <img src="horror.book2.jpg" alt="Book 7">
+             <img src="horror.book3.jpg" alt="Book 8">
+             <img src="horror.book4.jpg" alt="Book 9">
+             <img src="horror.book5.jpg" alt="Book 10">
+             <!-- Duplicate Images for Seamless Effect -->
+             <img src="horror.book6.jpg" alt="Book 6">
+             <img src="horror.book7.jpg" alt="Book 7">
+             <img src="horror.book8.jpg" alt="Book 8">
+             <img src="horror.book9.jpg" alt="Book 9">
+             <img src="horror.book10.jpg" alt="Book 10">
+            </div>
+       </div>
+    
+        
+      
+    
+    
+        <script>
+            function toggleSidebar() {
+                document.querySelector('.sidebar').classList.toggle('active');
+            }
+    
+            function toggleSearch() {
+                document.getElementById("search-bar").classList.toggle("active");
+            }
+        </script>
+    
+    </body>
+    </html>
+    
+   
